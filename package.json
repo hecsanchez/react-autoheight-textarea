@@ -1,6 +1,6 @@
 {
   "name": "react-autoheight-textarea",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React textarea component which automatically reset the height of textarea as content changes",
   "main": "index.js",
   "scripts": {
