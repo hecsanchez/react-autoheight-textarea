@@ -3,7 +3,7 @@ React textarea component which automatically reset the height of textarea as con
 
 ### Use it in this way:
 ```
-npm install react-textarea-autosize --save
+npm install react-autoheight-textarea --save
 ```
 ```
 import autoheightTextarea from 'react-autoheight-textarea'
