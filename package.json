@@ -1,0 +1,29 @@
+{
+  "name": "react-autoheight-textarea",
+  "version": "1.0.0",
+  "description": "React textarea component which automatically reset the height of textarea as content changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanoook/react-autoheight-textarea.git"
+  },
+  "keywords": [
+    "react",
+    "textarea",
+    "autosize",
+    "autoheight",
+    "component"
+  ],
+  "author": "Rango Yuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuanoook/react-autoheight-textarea/issues"
+  },
+  "homepage": "https://github.com/yuanoook/react-autoheight-textarea#readme",
+  "dependencies": {
+    "react": "^15.3.2"
+  }
+}
