@@ -1,22 +1,4 @@
-# react-autoheight-textarea
-React textarea component which automatically reset the height of textarea as content changes.
-
-### Use it in this way:
-```
-npm install react-autoheight-textarea --save
-```
-```
-import autoheightTextarea from 'babel!react-autoheight-textarea'
-
-React.renderComponent(
-    <autoheightTextarea defaultValue="Type your content"></autoheightTextarea>,
-    document.getElementById('root')
-)
-```
-
-### Or in this way:
-```
-//Copy and paste the following codes in your file
+import React from 'react'
 
 const autoheightTextarea = React.createClass({
     autoResize(e) {
@@ -32,4 +14,5 @@ const autoheightTextarea = React.createClass({
         return <textarea {...this.props} onInput={this.autoResize} ref={(c) => this.textarea = c}></textarea>
     }
 })
-```
+
+export default autoheightTextarea

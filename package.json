@@ -1,9 +1,10 @@
 {
   "name": "react-autoheight-textarea",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React textarea component which automatically reset the height of textarea as content changes",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +26,12 @@
   "homepage": "https://github.com/yuanoook/react-autoheight-textarea#readme",
   "dependencies": {
     "react": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.13.2"
   }
 }
