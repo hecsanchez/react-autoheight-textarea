@@ -6,7 +6,7 @@ React textarea component which automatically reset the height of textarea as con
 npm install react-autoheight-textarea --save
 ```
 ```
-import autoheightTextarea from 'babel!react-autoheight-textarea'
+import autoheightTextarea from 'react-autoheight-textarea'
 
 React.renderComponent(
     <autoheightTextarea defaultValue="Type your content"></autoheightTextarea>,
